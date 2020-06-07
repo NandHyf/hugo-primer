@@ -1,3 +1,17 @@
+# MyTuned:
+
+1. 在```baseof.html```中增加了标签栏图标和右下角的"猫咪海上漂"(```#EveOneCat```)的gif
+2. 在```baseof.html```上使显示了侧边栏```SideBar```(其实是直接从```SingalPage```里面复制过来的)
+3. 在```Header.html```中添加了一张.Gif
+
+![Main](/images/Mytune.gif)
+
+
+
+---
+
+
+
 # Hugo-Primer
 
 **A simple and beautiful Hugo theme based on GitHub's Primer CSS** | **[日本語記事](https://qqhann.dev/blog/theer-stroy/)**
