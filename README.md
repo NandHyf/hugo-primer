@@ -4,7 +4,7 @@
 2. 在```baseof.html```上使显示了侧边栏```SideBar```(其实是直接从```SingalPage```里面复制过来的)
 3. 在```Header.html```中添加了一张.Gif
 
-![Main](./images/Mytune.gif)
+![我的博客首页](https://github.com/NandHyf/hugo-primer/blob/master/images/MyTune.gif)
 
 
 
