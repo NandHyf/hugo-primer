@@ -1,15 +1,11 @@
 {{ define "title" }}
-  {{ .Title }} &ndash; {{ .Site.Title }}
+  {{ .Title }}
 {{ end }}
 
 
 {{ define "main" }}
 <!-- list template -->
 <div>
-
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-
   {{ range .Paginator.Pages }}
   <div>
     <div>

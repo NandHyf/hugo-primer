@@ -14,6 +14,7 @@
     {{ with .Keywords }}
     <meta content="{{ delimit . `, ` }}" name="keywords">
     {{ end }}
+    <link href="/Icons/A128.ico" type="image/x-icon" rel="shortcut icon">
     {{ if .Description }}
     <meta name="description" property="og:description" content="{{ .Description }}|{{ .Site.Params.Description }}">
     {{ else if .IsPage }}
@@ -25,7 +26,7 @@
     <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
     <!-- favicon & touch-icon -->
     {{ if .Site.Params.UseIcon }}
-    <link rel="icon" href="/favicon-64.png">
+    
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="mask-icon" size="any" href="/pinned-icon.svg">
     {{ end }}
@@ -59,12 +60,11 @@
       </div>
 
       <div id="side" class="pr-1 bg-white">
-        <aside class="pr-3">
-          {{ block "side" . }}
-          <div id="toc" class="mb-3">
-          </div>
-          {{ end }}
-        </aside>
+        {{ partial "side.taxonomy.html" . }}
+        <!-- <aside class="pr-3">
+        <div id="toc" class="mb-3">
+        </aside> -->
+        <img src="/Pics/cat_海上漂.gif" alt="gif" width="230" height="180px"></img>
       </div>
 
       <div id="footer" class="pt-2 pb-3 bg-white text-center">
